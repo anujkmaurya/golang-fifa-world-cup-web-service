@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/personal-work/pluralsight/golang-fifa-world-cup-web-service/data"
+	"golang-fifa-world-cup-web-service/data"
 )
 
 // RootHandler returns an empty body status code
