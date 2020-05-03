@@ -5,7 +5,6 @@ import (
 	"go/ast"
 	"go/parser"
 	"go/token"
-	"golang-fifa-world-cup-web-service/data"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -14,6 +13,8 @@ import (
 	"reflect"
 	"runtime"
 	"testing"
+
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/data"
 )
 
 func TestRootHandlerReturnsNoContentStatus(t *testing.T) {

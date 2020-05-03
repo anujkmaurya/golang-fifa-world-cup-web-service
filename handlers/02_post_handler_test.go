@@ -3,10 +3,11 @@ package handlers
 import (
 	"bytes"
 	"encoding/json"
-	"golang-fifa-world-cup-web-service/data"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/data"
 )
 
 func TestAddNewWinnerHandlerReturnsUnauthorizedForInvalidAccessToken(t *testing.T) {

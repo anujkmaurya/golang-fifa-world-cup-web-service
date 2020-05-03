@@ -2,10 +2,11 @@ package handlers
 
 import (
 	"bytes"
-	"golang-fifa-world-cup-web-service/data"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/data"
 )
 
 func TestCorrectHTTPGetMethodDispatch(t *testing.T) {

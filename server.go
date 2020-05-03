@@ -1,9 +1,11 @@
 package main
 
 import (
-	"golang-fifa-world-cup-web-service/data"
-	"golang-fifa-world-cup-web-service/handlers"
 	"net/http"
+
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/handlers"
+
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/data"
 )
 
 func main() {

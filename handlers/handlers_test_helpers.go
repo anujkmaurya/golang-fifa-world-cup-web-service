@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"golang-fifa-world-cup-web-service/data"
 	"path"
 	"path/filepath"
+
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/data"
 )
 
 // reloads JSON into memory to ensure

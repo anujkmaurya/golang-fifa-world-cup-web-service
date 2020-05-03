@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"golang-fifa-world-cup-web-service/data"
+	"github.com/anujkmaurya/golang-fifa-world-cup-web-service/data"
 )
 
 // RootHandler returns an empty body status code
@@ -25,7 +25,7 @@ func ListWinners(res http.ResponseWriter, req *http.Request) {
 		}
 		res.Write(winners)
 	} else {
-		filteredWinners, err := data.ListAllByYear()
+		filteredWinners, err := data.ListAllByYear(year)
 		if err != nil {
 			res.WriteHeader(http.StatusBadRequest)
 			return
